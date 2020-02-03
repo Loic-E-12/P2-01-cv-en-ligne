@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'barlow_condensedregular';
+    src: url('barlow-fontfacekit/web fonts/barlow_regular_macroman/Barlow-Regular-webfont.eot');
+   src:url('barlow-fontfacekit/web fonts/barlow_regular_macroman/Barlow-Regular-webfont.woff') format('woff');
+        
+    font-weight: normal;
+    font-style: normal;
+
+}
+body
+{
+	margin: 0;
+}
+
+#conteneur
+{
+	display: flex;
+	
+	width: 100%;
+	height:700px;
+	
+}
+
+img
+{
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	margin: 20%;
+}
+
+
+h1
+{
+	margin-left: 3%;
+	font-size: 40px;
+	font-family: 'barlow_condensedregular';
+}
+
+h2
+{
+	margin-left: 3%;
+}
+
+
+.elementgauche
+{
+	width: 20%;
+	height: 200%;
+	background-color: #FFB300;
+	font-family: 'barlow_condensedregular';
+	
+}
+
+.elementdroit
+{
+	width: 80%;
+	height: 700px;
+	font-family: 'barlow_condensedregular';
+	
+	
+}
+
+.contact
+{
+	background-color: #212121;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.icons
+{
+	font-size: 40px;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 10%;
+	color: #212121;
+	align-items: center;
+
+}
+
+.moi
+{
+	background-color: #FFB300;
+	height: 500px;
+	text-align: justify;
+	padding: 7%;
+	color: #212121;
+	
+}
+
+.titre
+{
+	padding-left: 7%;
+	padding-top: 8%;
+	border-bottom: solid 1px #FFEA00;
+	width: 80%;
+	margin-left: 7%;
+	font-size: 18px;
+}
+
+.coordonnees
+{
+	color: #212121;
+	text-align: justify;
+	padding-left: 10%;
+
+}
+	
+#formation
+{
+	display: flex;
+	
+	width: 80%;
+	padding-top: 5%;
+	padding-left: 5%;
+	justify-content: space-around;
+}
+
+#experiences
+{
+	display: flex;
+	
+	width: 80%;
+	padding-left: 5%;
+	padding-top: 5%;
+	justify-content: space-around;
+
+}
+.reco
+{
+	width: 80%;
+	padding-left: 12%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+
+}
+		
+.text
+{
+	width: 60%;
+}
+
+.loic
+{
+	text-align: center;
+}
+
+.fa-circle
+{
+	color:#FFB300;
+	font-size: 8px; 
+}
+
+.intég
+{
+	border-bottom: solid 1px #FFEA00;
+}
+
+.fa-briefcase
+{
+	color: #FFEA00;
+	padding-right: 2%;
+}
+
+.fa-graduation-cap
+{
+	color: #FFEA00;
+	padding-right: 2%;
+}
+
+.fa-pencil-alt
+{
+	color: #FFEA00;
+	padding-right: 2%;
+}
+.fa-dot-circle
+{
+	color: #FFEA00;
+}
+
+@media screen and (max-width: 1024px)
+
+{
+
+.elementgauche
+	{
+		width: 35%;
+		height: 1400px;
+	}
+.elementdroit
+	{
+		width: 65%;
+		height: 900px;
+	}
+#formation 
+
+	{
+		height: 200px;
+	}
+
+.titre
+
+	{
+		padding-top: 8%;
+		padding-bottom: 4%;
+	}
+.reco
+
+	{
+		padding-top: 10%;
+	}
+}
+
+@media screen and (max-width:812px)
+{
+#conteneur
+	{
+		display: block;
+	}
+
+.elementgauche
+	{
+		width: 100%;
+		height: 1200px;
+	}
+
+.elementdroit
+	{
+		width: 100%;
+	}
+
+.moi
+	{
+		height: 250px;
+	}
+#experiences
+	{
+		width: 90%;
+	}
+
+#formation
+	{
+		width: 90%;
+	}
+}
