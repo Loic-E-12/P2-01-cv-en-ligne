@@ -247,16 +247,16 @@ h3
 	}
 #experiences
 	{
-		width: 90%;
+		width: 80%;
 	}
 
 #formation 
 	{
-		width: 90%;
+		width: 80%;
 	}
 .icons
 	{
-		width: 50%;
+		display: inline-flex;
 
 	}	
 }
