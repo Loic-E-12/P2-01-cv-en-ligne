@@ -42,6 +42,11 @@ h2
 	margin-left: 3%;
 }
 
+h3
+{
+	border-bottom:solid 1px #FFB300;
+}
+
 
 .elementgauche
 {
@@ -75,7 +80,7 @@ h2
 	justify-content: space-around;
 	padding-top: 10%;
 	color: #212121;
-	align-items: center;
+	text-align: center;
 
 }
 
@@ -93,7 +98,6 @@ h2
 {
 	padding-left: 7%;
 	padding-top: 8%;
-	border-bottom: solid 1px #FFEA00;
 	width: 80%;
 	margin-left: 7%;
 	font-size: 18px;
@@ -210,6 +214,11 @@ h2
 	{
 		padding-top: 10%;
 	}
+.icons
+	{
+		display:none;
+
+	}	
 }
 
 @media screen and (max-width:812px)
@@ -239,7 +248,7 @@ h2
 		width: 90%;
 	}
 
-#formation
+#formation 
 	{
 		width: 90%;
 	}
