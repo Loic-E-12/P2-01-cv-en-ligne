@@ -49,7 +49,7 @@ h2
 h3
 {
 	border-bottom:solid 1px #FFEA00;
-	padding: 4%;
+	padding: 2%;
 }
 
 
@@ -124,7 +124,7 @@ h3
 	
 	width: 80%;
 	padding-top: 5%;
-	padding-left: 8%;
+	padding-left: 10%;
 	justify-content: space-around;
 }
 
@@ -133,7 +133,7 @@ h3
 	display: flex;
 	
 	width: 80%;
-	padding-left: 8%;
+	padding-left: 10%;
 	padding-top: 5%;
 	justify-content: space-around;
 
