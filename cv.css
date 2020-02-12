@@ -48,7 +48,7 @@ h2
 
 h3
 {
-	border-bottom:solid 1px #FFB300;
+	border-bottom:solid 1px #FFEA00;
 }
 
 
@@ -123,7 +123,7 @@ h3
 	
 	width: 80%;
 	padding-top: 5%;
-	padding-left: 5%;
+	padding-left: 7%;
 	justify-content: space-around;
 }
 
@@ -132,7 +132,7 @@ h3
 	display: flex;
 	
 	width: 80%;
-	padding-left: 5%;
+	padding-left: 7%;
 	padding-top: 5%;
 	justify-content: space-around;
 
@@ -140,7 +140,7 @@ h3
 .reco
 {
 	width: 80%;
-	padding-left: 12%;
+	padding-left: 14%;
 	padding-top: 2%;
 	padding-bottom: 2%;
 
@@ -195,12 +195,12 @@ h3
 
 .elementgauche
 	{
-		width: 35%;
+		width: 30%;
 		height: 1400px;
 	}
 .elementdroit
 	{
-		width: 65%;
+		width: 70%;
 		height: 900px;
 	}
 #formation 
