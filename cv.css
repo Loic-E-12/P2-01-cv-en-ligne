@@ -142,7 +142,7 @@ h3
 {
 	width: 80%;
 	padding-left: 14%;
-	padding-top: 2%;
+	padding-top: 1%;
 	padding-bottom: 2%;
 
 }
@@ -159,7 +159,7 @@ h3
 
 .fa-circle
 {
-	color:#FFB300;
+	color:#FFEA00;
 	font-size: 8px; 
 }
 
@@ -197,7 +197,7 @@ h3
 .elementgauche
 	{
 		width: 30%;
-		height: 1400px;
+		height: 1500px;
 	}
 .elementdroit
 	{
@@ -219,7 +219,7 @@ h3
 .reco
 
 	{
-		padding-top: 10%;
+		padding-top: 3%;
 	}
 
 }
@@ -248,12 +248,12 @@ h3
 	}
 #experiences
 	{
-		width: 90%;
+		width: 70%;
 	}
 
 #formation 
 	{
-		width: 90%;
+		width: 70%;
 	}
 
 
