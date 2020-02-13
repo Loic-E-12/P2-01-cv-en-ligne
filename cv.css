@@ -233,7 +233,8 @@ h3
 	}	
 .coordonnees
 {
-	height: 200px;
+	height: 190px;
+	text-align: justify-all;
 }
 .icons
 {
