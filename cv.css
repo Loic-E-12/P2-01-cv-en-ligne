@@ -15,7 +15,6 @@ body
 #conteneur
 {
 	display: flex;
-	
 	width: 100%;
 	height:700px;
 	
@@ -28,17 +27,23 @@ img
 	height: 150px;
 	margin: 20%;
 }
+
 .loic
 {
 	text-align: center;
 }
-
 
 h1
 {
 	margin-left: 3%;
 	font-size: 40px;
 	font-family: 'barlow_condensedregular';
+}
+
+p
+{
+	font-family: 'barlow_condensedregular';
+	color: black;
 }
 
 h2
@@ -49,20 +54,20 @@ h2
 h3
 {
 	border-bottom:solid 1px #FFEA00;
-	padding: 2%;
+	padding: 1em;
 }
 
 
-.elementgauche
+.elementgauche /*leftside*/
 {
 	width: 20%;
-	height: 1500px;
+	height: 1350px;
 	background-color: #FFB300;
 	font-family: 'barlow_condensedregular';
 	
 }
 
-.elementdroit
+.elementdroit /*parcours professionnel*/
 {
 	width: 80%;
 	height: 700px;
@@ -76,6 +81,7 @@ h3
 	background-color: #212121;
 	padding: 2px 0;
 	text-align: center;
+	color: #FFEA00;
 }
 
 .icons
@@ -84,14 +90,11 @@ h3
 	display: flex;
 	justify-content: space-around;
 	padding-top: 10%;
-	color: #212121;
-	
+	color: #212121;	
 }
 	
 	
-
-
-.moi
+.moi /*résumé de parcours*/
 {
 	background-color: #FFB300;
 	height: 500px;
@@ -104,9 +107,18 @@ h3
 .titre
 {
 	padding-left: 7%;
-	padding-top: 8%;
+	padding-top: 1em;
 	width: 80%;
-	margin-left: 7%;
+	margin: 1em;
+	font-size: 18px;
+}
+
+.title
+{
+	padding-left: 7%;
+	padding-top: 0.2em;
+	width: 80%;
+	margin: 1em;
 	font-size: 18px;
 }
 
@@ -121,40 +133,59 @@ h3
 #formation
 {
 	display: flex;
-	
 	width: 80%;
-	padding-top: 1%;
-	padding-left: 10%;
+	margin: 4em;
+	margin-top: 1px;
+	margin-bottom: 1em;
 	justify-content: space-around;
 }
 
-#experiences
+#acces
 {
 	display: flex;
-	
+	padding-top: 1em;
 	width: 80%;
-	padding-left: 10%;
-	padding-top: 1%;
+	margin: 4em;
+	margin-top: 1em;
 	justify-content: space-around;
 
 }
+
+#travelex
+{
+	display: flex;
+	padding-top: 1em;
+	width: 80%;
+	margin: 4em;
+	margin-bottom: 1em;
+	justify-content: space-around;
+
+}
+#interim
+{
+	display: flex;
+	padding-top: 1em;
+	width: 80%;
+	margin: 4em;
+	justify-content: space-around;
+
+}
+
 .reco
 {
 	width: 80%;
-	padding-left: 14%;
-	padding-top: 1%;
-	padding-bottom: 2%;
+	margin: 4em;
+	padding: 2em;
+	margin-top: 0.2em;
 
 }
 		
 .text
 {
-	width: 60%;
-}
-
-.loic
-{
-	text-align: center;
+	width: 70%;
+	padding-bottom: 0em;
+	margin-top: 0.5em;
+		
 }
 
 .fa-circle
@@ -166,6 +197,10 @@ h3
 .intég
 {
 	border-bottom: solid 1px #FFEA00;
+}
+.name
+{
+	color: #FFEA00;
 }
 
 .fa-briefcase
@@ -184,6 +219,7 @@ h3
 {
 	color: #FFEA00;
 	padding-right: 2%;
+	
 }
 .fa-dot-circle
 {
@@ -192,22 +228,28 @@ h3
 
 
 
-@media screen and (max-width:812px)
+/*affichage tablette*/
+@media screen and (max-width:768px)
 {
 #conteneur
 	{
-		display: block;
+		display: flex;
+		width: auto;
+		height: auto;
 	}
 
 .elementgauche
 	{
-		width: 100%;
-		height: 900px;
+		width: 30%;
+		height: 1200px;
+		font-size: 13px;
 	}
 
 .elementdroit
 	{
-		width: 100%;
+		
+		font-size: 13px;
+		
 	}
 #formation
 	{
@@ -222,33 +264,45 @@ h3
 	}
 .moi
 	{
-		height: 60px;
+		height: 300px;
 
 	}	
 .loic
 	{
-		height: 300px;
-		
+		height: 200px;
 
+	
 	}	
+
 .coordonnees
-{
-	height: 190px;
-	text-align: justify-all;
-}
+	{
+	height: 180px;
+	margin: 0;
+	font-size: 15px;
+	}
 .icons
-{
+	{	
 	padding-top: 5px;
+	}
+.contact
+	{
+	width: 100%;
+	}
+img
+	{
+	width: 90px;
+	height: 90px;
+	}
+
 }
 
-
-
-}
-@media screen and (max-width:640px)
+/*affichage mobile*/
+@media screen and (max-width:425px)
 {
 #conteneur
 	{
 		display: block;
+		width: 100%;
 	}
 
 .elementgauche
@@ -286,14 +340,13 @@ h3
 
 	}	
 .coordonnees
-{
+	{
 	height: 200px;
-}
+	}
 .icons
-{
+	{
+
 	padding-top: 5px;
-}
-
-
+	}
 
 }
