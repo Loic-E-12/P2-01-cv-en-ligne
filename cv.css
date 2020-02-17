@@ -234,20 +234,21 @@ h3
 #conteneur
 	{
 		display: flex;
-		width: auto;
+		position: absolute;
+		
 		height: auto;
 	}
 
 .elementgauche
 	{
-		width: 30%;
+		width: 25%;
 		height: 1200px;
 		font-size: 13px;
 	}
 
 .elementdroit
 	{
-		
+		width: 65%;
 		font-size: 13px;
 		
 	}
@@ -302,7 +303,8 @@ img
 #conteneur
 	{
 		display: block;
-		width: 100%;
+		width: auto;
+		position: absolute;
 	}
 
 .elementgauche
@@ -341,7 +343,7 @@ img
 	}	
 .coordonnees
 	{
-	height: 200px;
+	height: 250px;
 	}
 .icons
 	{
