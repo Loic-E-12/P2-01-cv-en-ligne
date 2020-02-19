@@ -339,13 +339,12 @@ img
 	{
 		display: block;
 		width: auto;
-		height: auto;
 		position: absolute;
 	}
 
 .elementgauche
 	{
-		width: auto;
+		width: 100%;
 		height: 900px;
 		
 
