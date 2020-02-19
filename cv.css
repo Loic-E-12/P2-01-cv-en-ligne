@@ -76,6 +76,43 @@ h3
 	
 }
 
+header
+{
+	padding-left: 7%;
+	padding-top: 0.5em;
+	width: 80%;
+	margin: 1em;
+	margin-top: 0.5px;
+}
+.fa-table-tennis
+{
+	border-style: circle;
+	border: 1px solid #212121;
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+
+}
+
+.fa-biking
+{
+	border-style: circle;
+	border: 1px solid #212121;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	font-size: 40px;
+}
+.fa-swimmer
+{
+	border-style: circle;
+	border: 1px solid #212121;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+}
+
+
 .contact
 {
 	background-color: #212121;
@@ -296,25 +333,28 @@ img
 }
 
 /*affichage mobile*/
-@media screen and (max-width:425px)
+@media screen and (max-width:320px)
 {
 #conteneur
 	{
 		display: block;
 		width: auto;
+		height: auto;
 		position: absolute;
 	}
 
 .elementgauche
 	{
-		width: 100%;
+		width: auto;
 		height: 900px;
+		
 
 	}
 
 .elementdroit
 	{
 		width: 100%;
+
 	}
 #formation
 	{
