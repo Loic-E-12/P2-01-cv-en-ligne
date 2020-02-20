@@ -17,7 +17,7 @@ body
 	display: flex;
 	width: auto;
 	height:auto;
-	position: absolute;
+	
 }
 
 img
@@ -271,7 +271,9 @@ header
 #conteneur
 	{
 		display: flex;
-		position: absolute;
+		width: auto;
+		height: auto;
+		
 
 	}
 
@@ -340,7 +342,8 @@ img
 	{
 		display: block;
 		width: auto;
-		position: absolute;
+		height: auto;
+		
 	}
 
 .elementgauche
@@ -348,12 +351,11 @@ img
 		width: 100%;
 		height: 900px;
 		
-
 	}
 
 .elementdroit
 	{
-		width: 100%;
+		width: 92%;
 
 	}
 #formation
