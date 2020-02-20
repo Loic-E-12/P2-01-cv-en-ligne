@@ -213,7 +213,6 @@ header
 {
 	width: 80%;
 	margin: 4em;
-	padding: 2em;
 	margin-top: 0.2em;
 
 }
@@ -355,15 +354,15 @@ img
 
 .elementdroit
 	{
-		width: 92%;
+		width: 100%;
 
 	}
 #formation
 	{
 	margin-right: 40px;
 	padding-bottom: 40px;
-	padding-right: 50px;
-
+	padding-right: 0em;
+	
 	}
 	p
 	{
@@ -391,5 +390,10 @@ img
 
 	padding-top: 5px;
 	}
+.reco
+{
+	padding: 0em;
+
+}	
 
 }
