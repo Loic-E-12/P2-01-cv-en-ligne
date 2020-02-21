@@ -269,7 +269,7 @@ header
 {
 #conteneur
 	{
-		display: flex;
+		display: block;
 		width: auto;
 		height: auto;
 		
@@ -278,14 +278,14 @@ header
 
 .elementgauche
 	{
-		width: 30%;
-		height: 1200px;
+		width: auto;
+		height: 900px;
 		font-size: 13px;
 	}
 
 .elementdroit
 	{
-		width: 70%;
+		width: auto;
 		font-size: 13px;
 		
 	}
@@ -296,18 +296,20 @@ header
 	padding-right: 50px;
 
 	}
-	p
+p
 	{
 		margin-right: 10px;
 	}
 .moi
 	{
-		height: 300px;
+		height: 100px;
 
 	}	
 .loic
 	{
-		height: 200px;
+		height: 250px;
+		text-align: center;
+		margin-top: -50px;
 
 	}
 
@@ -316,12 +318,16 @@ header
 	{
 	height: 180px;
 	margin: 0;
-	font-size: 15px;
+	text-align: center;
+	margin-left: -70px;
+
 	}
 .icons
-	{	
-	padding-top: 5px;
+
+	{
+	margin-top: -35px;
 	}
+
 .contact
 	{
 	width: 100%;
@@ -332,23 +338,30 @@ img
 	height: 90px;
 	}
 
+.reco
+
+	{
+		margin: 5em;
+	}	
+
 }
 
 /*affichage mobile*/
-@media screen and (max-width:425px)
+@media screen and (max-width: 425px)
 {
 #conteneur
 	{
 		display: block;
 		width: auto;
 		height: auto;
+		font-size: 12px;
 		
 	}
 
 .elementgauche
 	{
 		width: 100%;
-		height: 900px;
+		height: 850px;
 		
 	}
 
@@ -364,36 +377,43 @@ img
 	padding-right: 0em;
 	
 	}
-	p
+p
 	{
 		margin-right: 10px;
 	}
+
 .moi
 	{
-		height: 180px;
+		height: 150px;
 
 	}	
 .loic
-	{
-		height: 200px;
+	{  	height: 180px;
 		padding-top: 2px;
 		padding-bottom: 20px;
 		
+	}
 
-	}	
 .coordonnees
 	{
 	height: 200px;
+	margin-left: -25px;
 	}
 .icons
 	{
 
-	padding-top: 5px;
+	margin-top: -10px;
 	}
 .reco
-{
+
+	{
 	padding: 0em;
 
-}	
+	}
+
+.contact
+	{
+	width: 100%;
+	}	
 
 }
