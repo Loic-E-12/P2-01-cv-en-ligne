@@ -159,13 +159,30 @@ header
 	margin: 1em;
 	font-size: 18px;
 }
+.fa-linkedin, .fa-facebook-square
+{
+	font-size: 40px;
+	
+}
+.social
+{
+	display: flex;
+	justify-content: space-around;
+	margin-left: -25px;
+}
 
 .coordonnees
 {
 	color: #212121;
 	text-align: justify;
-	padding-left: 10%;
+	padding-left: 20px;
+	padding-bottom:20px; 
 
+}
+a
+{
+	text-decoration: none;
+	color: inherit;
 }
 	
 #formation
